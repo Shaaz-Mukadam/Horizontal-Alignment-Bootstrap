@@ -1,0 +1,89 @@
+<!-- This horizontal align is used to align the elemnt horizontally 
+Horizontal = Straight 
+5 Class is There
+1. justify-end this property is used to align the elemnt at the end 
+2. justify-center this property is used to align the element at the center 
+3. justify-start this property is used to align the element at the lest side it will be by default
+4. justify-content-between this property is used to align the element in between it gives gap in betweeen 
+5. justify-content-around this property is used to align the element it gives gap from start and gives gap in between 
+justify content is used in row not in coloumn
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Horizontal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+   <style>
+    .container{
+        border: 3px solid black;
+    }
+    #one{
+        background-color: pink;
+    }
+    #two{
+        background-color: green;
+    }
+    #three{
+        background-color: lightblue;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-around">
+            <div class="col-3" id="one">
+                <h2>Col 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="two">
+                <h2>Col 2</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="three">
+                <h2>Col 3</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="row justify-content-between">
+            <div class="col-3" id="one">
+                <h2>Col 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="two">
+                <h2>Col 2</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="three">
+                <h2>Col 3</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+        </div>
+        <br><br>
+
+        
+        <div class="row justify-content-end">
+            <div class="col-3" id="one">
+                <h2>Col 1</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="two">
+                <h2>Col 2</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+            <div class="col-3" id="three">
+                <h2>Col 3</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting</p>
+            </div>
+        </div>
+        
+
+    </div>
+</body>
+</html>
